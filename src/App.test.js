@@ -1,8 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders the Lesotho tourism homepage', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(
+    screen.getByRole('heading', { name: /discover the beauty of lesotho/i })
+  ).toBeInTheDocument();
+  expect(
+    screen.getByRole('heading', { name: /explore lesotho/i })
+  ).toBeInTheDocument();
 });

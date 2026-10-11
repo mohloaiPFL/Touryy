@@ -1,70 +1,200 @@
-# Getting Started with Create React App
+## 1. Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Touryy Lesotho is a responsive tourism web application developed
+using React.js, JavaScript, HTML, and CSS.
 
-## Available Scripts
+The application introduces visitors to Lesotho's natural beauty,
+tourist attractions, cultural heritage, and adventure experiences.
 
-In the project directory, you can run:
+It provides an interactive platform where visitors can explore
+destinations, search for attractions, save favourite places,
+watch tourism videos, and submit travel enquiries.
 
-### `npm start`
+## 2. Project Objectives
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The objectives of this project are to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Promote tourism in Lesotho.
+- Present tourist attractions in an organised and attractive layout.
+- Demonstrate the use of React functional components and JSX.
+- Store destination information in an array of objects.
+- Implement interactive search and category filtering.
+- Provide destination details.
+- Implement form validation.
+- Create a responsive interface for desktop and mobile devices.
+- Support tourism photographs and video content.
 
-### `npm test`
+## 3. Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+- Vite
+- npm
 
-### `npm run build`
+## 4. Main Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Home Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Introduces Discover Lesotho with a tourism hero section and
+navigation links.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tourist Attractions
 
-### `npm run eject`
+Displays destinations using reusable React components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Search and Filtering
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Allows users to search for attractions and filter them by category.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Destination Details
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Displays additional information about a selected attraction,
+including activities, location, and estimated costs.
 
-## Learn More
+### Saved Destinations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Allows users to save favourite attractions for later reference.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Video Showcase
 
-### Code Splitting
+Allows visitors to watch tourism videos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Visitor Enquiry Form
 
-### Analyzing the Bundle Size
+Collects visitor information, destination preferences,
+visit dates, visitor numbers, and messages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Form Validation
 
-### Making a Progressive Web App
+Checks required fields and validates email addresses,
+phone numbers, visitor counts, visit dates, and messages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Responsive Design
 
-### Advanced Configuration
+Adjusts the application layout for different screen sizes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 5. Installation
 
-### Deployment
+Install Node.js before running the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Download or extract the project folder.
 
-### `npm run build` fails to minify
+Open the project folder in Visual Studio Code.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open the terminal and run:
+
+    npm install
+
+Start the development server:
+
+    npm run dev
+
+Open the local address displayed in the terminal.
+
+## 6. Production Build
+
+To create a production build, run:
+
+    npm run build
+
+To preview the production build, run:
+
+    npm run preview
+
+## 7. Project Structure
+
+    Discover-Lesotho/
+     public/
+       images/
+        videos/
+    src/
+      components/
+       data/
+        attractions.js
+    App.jsx
+    App.css
+    main.jsx
+    index.html
+    package.json
+    README.md
+
+## 8. Adding Images
+
+Place tourism photographs inside:
+
+    public/images/
+
+Update the image paths in the attraction data when adding
+or replacing photographs.
+
+Use photographs that you own or are permitted to use.
+
+Provide attribution when required by the image licence.
+
+## 9. Adding Videos
+
+Place MP4 video files inside:
+
+    public/videos/
+
+The video showcase can then reference the video using its
+public path.
+
+For example:
+
+    /videos/lesotho.mp4
+
+Use appropriately compressed video files to improve loading
+performance.
+
+## 10. Form Submission
+
+The enquiry form demonstrates front-end validation.
+
+It validates visitor input and displays a confirmation message.
+
+The current demonstration does not send enquiries to an email
+address or store them in a database.
+
+A backend service or form-processing service would be required
+to process real enquiries.
+
+## 11. Testing
+
+Recommended tests include:
+
+- Open the home page.
+- Search for a tourist attraction.
+- Filter attractions by category.
+- Open a destination's details.
+- Save and remove a favourite destination.
+- Submit the enquiry form with empty fields.
+- Submit an invalid email address.
+- Enter an invalid visitor count.
+- Select a past visit date.
+- Submit valid information.
+- Test the layout on a mobile screen.
+- Test the video player.
+
+## 12. Future Improvements
+
+Possible improvements include:
+
+- Online enquiry processing.
+- Interactive maps.
+- Multilingual content.
+- Tourism packages and booking features.
+- More destination photographs and videos.
+- Improved accessibility.
+- Visitor reviews and ratings.
+
+## 13. Conclusion
+
+Discover Lesotho demonstrates how React can be used to develop
+an interactive tourism application.
+
+The project combines reusable components, structured destination
+data, responsive styling, search functionality, and form validation
+to provide an engaging tourism experience.
