@@ -2,6 +2,7 @@
   "name": "touryy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mohloaiPFL.github.io/touryy",
   "dependencies": {
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
@@ -10,8 +11,7 @@
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://mohloaiqamo.github.io/touryy"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
