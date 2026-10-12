@@ -16,7 +16,7 @@ const attractions = [
       "Camping"
     ],
     duration: "Half day to full day & 24hrs for Camping",
-    cost: "Check with local tour operators"
+    cost: " local tour operators"
   },
 
   {
@@ -35,13 +35,13 @@ const attractions = [
       "Guided tours"
     ],
     duration: "Works only @ BUSINESS HOURS",
-    cost: "Check with local tour operators"
+    cost: "local tour operators"
   },
 
   {
     id: "thaba-bosiu",
     name: "Thaba Bosiu",
-    location: "Near Maseru",
+    location: "Thaba-Bosiu Maseru",
     category: "Culture",
     description:
       "Visit the historic mountain fortress associated with King Moshoeshoe I and the founding of the Basotho nation.In Short Come visit our Royal Palace",
@@ -53,13 +53,13 @@ const attractions = [
       "Walking"
     ],
     duration: "2–4 hours",
-    cost: "Check current entrance fees"
+    cost: "current entrance fees"
   },
 
   {
     id: "sani-pass",
     name: "Sani Pass",
-    location: "Eastern Lesotho",
+    location: "Mokhotlong",
     category: "Adventure",
     description:
       "What a dramatic Steep Mountain road Connecting KwaZulu-Natal(South Africa) with the beautiful and PeaceFul district MOKHOTLONG.",
@@ -77,7 +77,7 @@ const attractions = [
   {
     id: "sehlabathebe",
     name: "Sehlabathebe National Park",
-    location: "Qacha's Nek District",
+    location: "Qacha's Nek ",
     category: "Wildlife",
     description:
       "Lesotho's first national park and a UNESCO World Heritagesite ,Offering a remote, High-Altitude wilderness Experience in the Southearstern Maluti Mountains.",
@@ -89,7 +89,7 @@ const attractions = [
       "Nature photography"
     ],
     duration: "1–2 days",
-    cost: "Check current park fees"
+    cost: " current park fees"
   },
 
   {
@@ -107,7 +107,7 @@ const attractions = [
       "Nature walks"
     ],
     duration: "Half day",
-    cost: "Check current visitor fees"
+    cost: " current visitor fees"
   },
 
   {
@@ -125,7 +125,7 @@ const attractions = [
       "Photography"
     ],
     duration: "24hrs",
-    cost: "Check current resort prices"
+    cost: "current resort prices"
   },
 
   {
@@ -143,13 +143,13 @@ const attractions = [
       "Guided tours"
     ],
     duration: "1–3 hours",
-    cost: "Check access arrangements"
+    cost: "access arrangements"
   },
 
   {
     id: "ts-ehlanyane",
     name: "Ts'ehlanyane National Park",
-    location: "Leribe District",
+    location: "Leribe ",
     category: "Nature",
     description:
       "Explore a mountain wilderness known for its indigenous plants, forested valleys, and hiking opportunities.",
@@ -161,7 +161,7 @@ const attractions = [
       "Photography"
     ],
     duration: "Half day to multiple days",
-    cost: "Check current park fees"
+    cost: " current park fees"
   }
 ];
 
