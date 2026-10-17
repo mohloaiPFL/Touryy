@@ -6,7 +6,7 @@ const attractions = [
     location: "Semonkong",
     category: "Nature",
     description:
-      "Discover one of Lesotho's most spectacular waterfalls, surrounded by dramatic mountain scenery. It also known as Lesotho's WaterFall",
+      "Discover one of Lesotho's most spectacular waterfalls, surrounded by dramatic mountain scenery. It also known as Lesotho tallest WaterFall",
     image: "/images/maletsunyane.jpg",
     activities: [
       "Photography",
@@ -16,7 +16,7 @@ const attractions = [
       "Camping"
     ],
     duration: "Half day to full day & 24hrs for Camping",
-    cost: " local tour operators"
+    cost: "M50-M10 000"
   },
 
   {
@@ -34,14 +34,14 @@ const attractions = [
       "Scenic drives",
       "Guided tours"
     ],
-    duration: "Works only @ BUSINESS HOURS",
-    cost: "local tour operators"
+    duration: "0800hrs - 1700hrs ",
+    cost: "M50-M1000"
   },
 
   {
     id: "thaba-bosiu",
-    name: "Thaba Bosiu",
-    location: "Thaba-Bosiu Maseru",
+    name: "Thaba Bosiu Cultural Village",
+    location: "Maseru",
     category: "Culture",
     description:
       "Visit the historic mountain fortress associated with King Moshoeshoe I and the founding of the Basotho nation.In Short Come visit our Royal Palace",
@@ -52,8 +52,8 @@ const attractions = [
       "Photography",
       "Walking"
     ],
-    duration: "2–4 hours",
-    cost: "current entrance fees"
+    duration: "0800hrs - 1700hrs",
+    cost: "M30-M1000"
   },
 
   {
@@ -70,14 +70,14 @@ const attractions = [
       "Scenic tours",
       "Adventure driving"
     ],
-    duration: "Half day to full day",
+    duration: "0800hrs - 1700hrs",
     cost: "Tax of M100 perPerson & perVihicle"
   },
 
   {
     id: "sehlabathebe",
     name: "Sehlabathebe National Park",
-    location: "Qacha's Nek ",
+    location: "Qacha's Nek",
     category: "Wildlife",
     description:
       "Lesotho's first national park and a UNESCO World Heritagesite ,Offering a remote, High-Altitude wilderness Experience in the Southearstern Maluti Mountains.",
@@ -88,8 +88,8 @@ const attractions = [
       "WaterFalls and Pools",
       "Nature photography"
     ],
-    duration: "1–2 days",
-    cost: " current park fees"
+    duration: "0800hrs - 1700hrs",
+    cost: "M50-M1000"
   },
 
   {
@@ -106,8 +106,8 @@ const attractions = [
       "Photography",
       "Nature walks"
     ],
-    duration: "Half day",
-    cost: " current visitor fees"
+    duration: "0800hrs - 1700hrs",
+    cost: "M200-M5000"
   },
 
   {
@@ -125,7 +125,7 @@ const attractions = [
       "Photography"
     ],
     duration: "24hrs",
-    cost: "current resort prices"
+    cost:"M100-M7000"
   },
 
   {
@@ -143,7 +143,7 @@ const attractions = [
       "Guided tours"
     ],
     duration: "1–3 hours",
-    cost: "access arrangements"
+    cost: "Free"
   },
 
   {
@@ -160,8 +160,8 @@ const attractions = [
       "Birdwatching",
       "Photography"
     ],
-    duration: "Half day to multiple days",
-    cost: " current park fees"
+    duration: "24hrs",
+    cost: "M100-M3500"
   }
 ];
 

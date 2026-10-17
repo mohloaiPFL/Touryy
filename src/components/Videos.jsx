@@ -20,15 +20,18 @@ export default function VideoShowcase() {
         preload="metadata"
         playsInline
         aria-label="Lesotho travel film"
-        poster="/images/lesotho.jpg"
+        poster={`${process.env.PUBLIC_URL}/images/lesotho.jpg`}
         onError={() => setVideoUnavailable(true)}
         style={styles.video}
       >
         <source
-          src="/videos/%281080p%29.mp4"
+          src={`${process.env.PUBLIC_URL}/videos/%281080p%29.mp4`}
           type="video/mp4"
         />
-        <source src="/videos/%28720p%29.mp4" type="video/mp4" />
+        <source
+          src={`${process.env.PUBLIC_URL}/videos/%28720p%29.mp4`}
+          type="video/mp4"
+        />
         Your browser does not support HTML video.
       </video>
 

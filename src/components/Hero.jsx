@@ -37,7 +37,7 @@ const styles = {
     padding: "60px 8%",
     color: "white",
     backgroundImage:
-      "linear-gradient(90deg, rgba(8,25,18,0.92), rgba(8,25,18,0.25)), url('/images/lesotho.jpg')",
+      `linear-gradient(90deg, rgba(8,25,18,0.92), rgba(8,25,18,0.25)), url('${process.env.PUBLIC_URL}/images/lesotho.jpg')`,
     backgroundSize: "cover",
     backgroundPosition: "center"
   },

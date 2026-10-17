@@ -22,7 +22,7 @@ export default function AttractionDetails({ attraction, onClose }) {
         </button>
 
         <img
-          src={attraction.image}
+          src={`${process.env.PUBLIC_URL}${attraction.image}`}
           alt={attraction.name}
           style={styles.image}
         />

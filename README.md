@@ -1,6 +1,6 @@
 ## 1. Project Overview
 
-Touryy Lesotho is a responsive tourism web application developed
+Touryygit Lesotho is a responsive tourism web application developed
 using React.js, JavaScript, HTML, and CSS.
 
 The application introduces visitors to Lesotho's natural beauty,
